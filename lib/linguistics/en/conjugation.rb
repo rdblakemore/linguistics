@@ -55,7 +55,7 @@ require 'linguistics/en' unless defined?( Linguistics::EN )
 #
 module Linguistics::EN::Conjugation
 	extend Loggability
-
+  Loggability.level = Logger::DEBUG
 	# Use the Linguistics module's logger
 	log_to :linguistics
 
@@ -266,7 +266,7 @@ module Linguistics::EN::Conjugation
 
 
 end # module Linguistics::EN::Conjugation
-
+Loggability.level = Logger::DEBUG
 __END__
 #
 # Irregular verbs (from MorphAdorner's irregularverbs.txt)

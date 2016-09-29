@@ -287,7 +287,7 @@ require 'linguistics' unless defined?( Linguistics )
 #
 module Linguistics::EN
 	extend Loggability
-
+  Loggability.level = Logger::DEBUG
 	# Loggability API -- log to the Linguistics logger
 	log_to :linguistics
 
@@ -434,4 +434,4 @@ module Linguistics::EN
 
 
 end # module Linguistics::EN
-# Linguistics.logger.level = Logger::WARN
+Loggability.level = Logger::DEBUG

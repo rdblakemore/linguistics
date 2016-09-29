@@ -202,3 +202,4 @@ module Linguistics
 
 end # module Linguistics
 
+Loggability.level = Logger::DEBUG
