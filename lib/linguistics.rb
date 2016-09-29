@@ -201,4 +201,4 @@ module Linguistics
 
 
 end # module Linguistics
-
+Linguistics.logger.level = Logger::WARN
