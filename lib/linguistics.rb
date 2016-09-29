@@ -6,7 +6,7 @@ require 'loggability'
 # An interface for extending core Ruby classes with natural-language methods.
 module Linguistics
 	extend Loggability
-  Loggability.level = Logger::DEBUG
+  Loggability.level = 0
 	# Loggability API -- set up a logger for Linguistics objects
 	log_as :linguistics
 
@@ -202,4 +202,4 @@ module Linguistics
 
 end # module Linguistics
 
-Loggability.level = Logger::DEBUG
+Loggability.level = 0

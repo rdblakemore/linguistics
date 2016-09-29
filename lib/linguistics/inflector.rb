@@ -11,7 +11,7 @@ require 'linguistics' unless defined?( Linguistics )
 class Linguistics::Inflector
 	extend Loggability
 
-  Loggability.level = Logger::DEBUG
+  Loggability.level = 0
 	# Loggability API -- log to the linguistics logger
 	log_to :linguistics
 
@@ -86,4 +86,4 @@ class Linguistics::Inflector
 	end
 
 end # class Linguistics::Inflector
-Loggability.level = Logger::DEBUG
+Loggability.level = 0
