@@ -434,4 +434,4 @@ module Linguistics::EN
 
 
 end # module Linguistics::EN
-Linguistics.logger.level = Logger::WARN
+# Linguistics.logger.level = Logger::WARN
